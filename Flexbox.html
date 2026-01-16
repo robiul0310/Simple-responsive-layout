@@ -4,8 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>flex box</title>
+    <style>
+        .contant{
+            border: 2px solid red;
+            display:flex;
+            height: 250px;
+            justify-content:space-around;
+            align-items: center;
+            flex-direction: column-reverse;
+            flex-direction: row;
+
+        }
+        .box{
+            width: 50px;
+            height: 50px;
+            border:2px dashed tomato;
+        }
+    </style>
 </head>
 <body>
-    
+    <h2>Flex box</h2>
+    <div class="contant">        
+        <!-- .box{box-$}*3 diye nicher ta kora jay -->
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+        <div class="box">box-4</div>
+        <div class="box">box-5</div>
+        <div class="box">box-6</div>
+        <div class="box">box-7</div>
+        <div class="box">box-8</div>
+        <div class="box">box-9</div>
+    </div>
 </body>
 </html>
